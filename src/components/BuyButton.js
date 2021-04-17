@@ -27,7 +27,7 @@ export default class BuyButton extends React.Component {
                     </svg>
                 </span>
                 <span className="button__text">
-                 
+                 Find your Dream Candle
                 </span>
             </button>
         );
