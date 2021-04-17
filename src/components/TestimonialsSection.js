@@ -14,6 +14,7 @@ export default class TestimonialsSection extends React.Component {
                         <svg className="quotes__icon" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                             <path d="M0 14.182l4.571-14.182h4.952l-3.81 13.289h3.81v10.711h-9.524v-9.818zM14.476 14.182l4.571-14.182h4.952l-3.81 13.289h3.81v10.711h-9.524v-9.818z" />
                         </svg>
+                        
                         <div className="quotes__author">{_.get(testimonial, 'author.name', null)}<span className="quotes__location">, {_.get(testimonial, 'author.location', null)}</span></div>
                     </div>
                     <div key={testimonial_idx + '.1'} className="quotes__separator" />
