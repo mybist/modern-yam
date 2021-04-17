@@ -7,7 +7,7 @@ export default class HeroSection extends React.Component {
     render() {
         let section = _.get(this.props, 'section', null);
         let bg_img_opacity_pct = _.get(section, 'background_image_opacity', null) || 100;
-        let bg_img_opacity = bg_img_opacity_pct * 0.01;
+        let bg_img_opacity = bg_img_opacity_pct * 5;
         return (
             <section className="hero bg-color" data-id={_.get(section, 'section_id', null)}>
                 {_.get(section, 'background_image', null) && (
