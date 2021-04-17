@@ -40,9 +40,7 @@ export default class Header extends React.Component {
                             })}
                         </ul>
                         <div className="nav__right">
-                            <script type="text/javascript" src="https://testimonial.to/js/iframeResizer.min.js"></script>
-<iframe id="testimonialto-makers-rocket-dark" src="https://embed.testimonial.to/w/makers-rocket?theme=dark&card=base" frameborder="0" scrolling="no" width="100%"></iframe>
-<script type="text/javascript"> "#testimonialto-makers-rocket-dark");</script>
+                            
                             <button className="snipcart-checkout nav__button button button--transparent">
                                 <span className="button__icon nav__button-icon">
                                     <svg width="24" height="25" viewBox="0 0 24 25" xmlns="http://www.w3.org/2000/svg">
