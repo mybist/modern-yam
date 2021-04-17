@@ -7,9 +7,8 @@ sections:
     section_id: hero_section
     background_image: images/header.jpg
     background_image_opacity: 65
-    content: |+
-      ## Real, Vegan Friendly Candles Delivered To Your Home
-
+    content: |
+      # Real, Vegan Friendly Candles Delivered To Your Home
     actions:
       - title: See all items
         url: /store
