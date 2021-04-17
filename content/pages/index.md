@@ -8,7 +8,7 @@ sections:
     background_image: images/header.jpg
     background_image_opacity: 65
     content: |
-      # Real, Vegan Friendly Candles Delivered To Your Home
+      ### Real, Vegan Friendly Candles Delivered To Your Home
 
       Hand Made, Vegan Friendly Candes, Delivered to your Home
     actions:
