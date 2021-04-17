@@ -6,7 +6,9 @@ export default class TestimonialsSection extends React.Component {
         let section = _.get(this.props, 'section', null);
         let testimonials = _.get(section, 'testimonials', null);
         return (
-      
+      <script type="text/javascript" src="https://testimonial.to/js/iframeResizer.min.js"></script>
+<iframe id="testimonialto-makers-rocket-dark" src="https://embed.testimonial.to/w/makers-rocket?theme=dark&card=base" frameborder="0" scrolling="no" width="100%"></iframe>
+<script type="text/javascript">"#testimonialto-makers-rocket-dark");</script>
                     <div key={testimonial_idx + '.1'} className="quotes__separator" />
                     </React.Fragment>))}
                 </div>
